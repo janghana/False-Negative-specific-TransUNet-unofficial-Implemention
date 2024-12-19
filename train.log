@@ -1,0 +1,40 @@
+nohup: ignoring input
+load_pretrained: grid-size from 14 to 16
+Namespace(base_lr=0.0005, batch_size=2, dataset='MRT1', deterministic=1, exp='TU_MRT1256', gpu_id='0,1', img_size=256, is_pretrain=True, list_dir='./lists/lists_MRT1', max_epochs=2000, max_iterations=30000, n_gpu=2, n_skip=3, num_classes=2, root_path='../../datasets/brain_dataset_npz/train', seed=1234, train_root_path='../../datasets/duct_part_npz/train', train_split='duct_part_train_npz', val_root_path='../../datasets/duct_part_npz/val', val_split='duct_part_val_npz', vit_name='R50+ViT-B_16', vit_patches_size=16)
+The length of train set is: 642
+The length of validation set is: 86
+161 iterations per epoch. 322000 max iterations 
+  0%|                                        | 0/2000 [00:00<?, ?it/s]Epoch 0, Iteration 1: Loss: 0.7044, Dice: 0.0201, IoU: 0.0102, Acc: 0.8085, Precision: 0.0105, Recall: 0.2815, F1: 0.0203, Spec: 0.8123
+Epoch 0, Iteration 2: Loss: 0.6893, Dice: 0.0023, IoU: 0.0012, Acc: 0.8921, Precision: 0.0013, Recall: 0.0214, F1: 0.0025, Spec: 0.8977
+Epoch 0, Iteration 3: Loss: 0.6749, Dice: 0.0000, IoU: 0.0000, Acc: 0.9796, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9848
+Epoch 0, Iteration 4: Loss: 0.6569, Dice: 0.0000, IoU: 0.0000, Acc: 0.9829, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9894
+Epoch 0, Iteration 5: Loss: 0.6399, Dice: 0.0000, IoU: 0.0000, Acc: 0.9917, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9974
+Epoch 0, Iteration 6: Loss: 0.6263, Dice: 0.0000, IoU: 0.0000, Acc: 0.9876, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9984
+Epoch 0, Iteration 7: Loss: 0.6102, Dice: 0.0000, IoU: 0.0000, Acc: 0.9910, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9999
+Epoch 0, Iteration 8: Loss: 0.5968, Dice: 0.0000, IoU: 0.0000, Acc: 0.9907, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 0.9998
+Epoch 0, Iteration 9: Loss: 0.5861, Dice: 0.0000, IoU: 0.0000, Acc: 0.9907, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 10: Loss: 0.5746, Dice: 0.0000, IoU: 0.0000, Acc: 0.9920, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 11: Loss: 0.5669, Dice: 0.0000, IoU: 0.0000, Acc: 0.9894, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 12: Loss: 0.5565, Dice: 0.0000, IoU: 0.0000, Acc: 0.9921, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 13: Loss: 0.5495, Dice: 0.0000, IoU: 0.0000, Acc: 0.9901, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 14: Loss: 0.5413, Dice: 0.0000, IoU: 0.0000, Acc: 0.9902, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 15: Loss: 0.5333, Dice: 0.0000, IoU: 0.0000, Acc: 0.9911, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 16: Loss: 0.5255, Dice: 0.0000, IoU: 0.0000, Acc: 0.9936, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 17: Loss: 0.5190, Dice: 0.0000, IoU: 0.0000, Acc: 0.9938, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 18: Loss: 0.5127, Dice: 0.0000, IoU: 0.0000, Acc: 0.9927, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 19: Loss: 0.5072, Dice: 0.0000, IoU: 0.0000, Acc: 0.9921, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 20: Loss: 0.5014, Dice: 0.0000, IoU: 0.0000, Acc: 0.9936, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 21: Loss: 0.4954, Dice: 0.0000, IoU: 0.0000, Acc: 0.9949, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 22: Loss: 0.4941, Dice: 0.0000, IoU: 0.0000, Acc: 0.9898, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 23: Loss: 0.4893, Dice: 0.0000, IoU: 0.0000, Acc: 0.9909, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 24: Loss: 0.4865, Dice: 0.0000, IoU: 0.0000, Acc: 0.9912, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 25: Loss: 0.4788, Dice: 0.0000, IoU: 0.0000, Acc: 0.9942, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 26: Loss: 0.4778, Dice: 0.0000, IoU: 0.0000, Acc: 0.9916, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 27: Loss: 0.4749, Dice: 0.0000, IoU: 0.0000, Acc: 0.9906, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 28: Loss: 0.4693, Dice: 0.0000, IoU: 0.0000, Acc: 0.9929, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 29: Loss: 0.4671, Dice: 0.0000, IoU: 0.0000, Acc: 0.9926, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 30: Loss: 0.4666, Dice: 0.0000, IoU: 0.0000, Acc: 0.9901, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 31: Loss: 0.4614, Dice: 0.0000, IoU: 0.0000, Acc: 0.9926, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 32: Loss: 0.4582, Dice: 0.0000, IoU: 0.0000, Acc: 0.9944, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 33: Loss: 0.4586, Dice: 0.0000, IoU: 0.0000, Acc: 0.9901, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
+Epoch 0, Iteration 34: Loss: 0.4568, Dice: 0.0000, IoU: 0.0000, Acc: 0.9901, Precision: 0.0000, Recall: 0.0000, F1: 0.0000, Spec: 1.0000
